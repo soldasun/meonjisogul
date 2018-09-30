@@ -1,0 +1,91 @@
+a {
+  text-decoration: none;
+  color: black;
+}
+h1 {
+  text-align: center;
+}
+h2 {
+  font-size: 15px;
+  color: #0B2A8E;
+}
+h3 {
+  font-size: 14px;
+  color: #0B2A8E;
+}
+h4 {
+  font-size: 13px;
+  color: #0B2A8E;
+}
+footer {
+  border-top: 1px solid gray;
+  text-align: right;
+  font-size: 10px;
+  font-family: 나눔고딕;
+  letter-spacing: 0.5px;
+  margin-left: 100px;
+  margin-right: 100px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+nav ul {
+  padding: 0;
+}
+/* 메인 */
+#main {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  font-size: 12px;
+  font-family: 나눔고딕;
+  letter-spacing: 1px;
+}
+#left {
+  border-right: 1px dashed gray;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-left: 100px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+#right {
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-right: 100px;
+  margin-top: 20px;
+}
+/* 프로필 */
+#profile {
+  text-align: center;
+  letter-spacing: 1px;
+  font-size: 12px;
+  font-family: 나눔고딕;
+  margin-left: 100px;
+  margin-right: 100px;
+  padding: 50px;
+}
+/* 메뉴 */
+#menu {
+  font-size: 13px;
+  text-align: center;
+  border: 1px;
+  border-radius: 10px;
+  background: #0B2A8E;
+  padding: 0.5px;
+  margin-left: 100px;
+  margin-right: 100px;
+  letter-spacing: 1px;
+  word-spacing: 20px;
+}
+#menu li {
+  display: inline;
+  float: center;
+  list-style-type: none;
+}
+#menu a {
+  text-decoration: none;
+  color: white;
+}
+#menu a:hover {
+  text-decoration: none;
+  color: skyblue;
+}
